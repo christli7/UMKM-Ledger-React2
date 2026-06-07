@@ -497,9 +497,9 @@ function App() {
       </header>
 
       <nav className="tabbar card glass">
-        <TabButton active={activePage === 'dashboard'} onClick={() => setActivePage('dashboard')}>Page 1 · Dashboard Harian</TabButton>
-        <TabButton active={activePage === 'transactions'} onClick={() => setActivePage('transactions')}>Page 2 · Transaction History</TabButton>
-        <TabButton active={activePage === 'inventory'} onClick={() => setActivePage('inventory')}>Page 3 · Inventory Manager</TabButton>
+        <TabButton active={activePage === 'dashboard'} onClick={() => setActivePage('dashboard')}>Page 1 · Dashboard</TabButton>
+        <TabButton active={activePage === 'transactions'} onClick={() => setActivePage('transactions')}>Page 2 · History</TabButton>
+        <TabButton active={activePage === 'inventory'} onClick={() => setActivePage('inventory')}>Page 3 · Inventory</TabButton>
       </nav>
 
       {toast ? <div className="toast">{toast}</div> : null}
